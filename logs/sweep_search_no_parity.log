@@ -1,0 +1,14 @@
+SURVIVOR [(0, 2), (1, 3), (0, 4), (1, 2), (0, 3), (0, 1), (2, 4)]
+SURVIVOR [(0, 2), (1, 3), (0, 4), (1, 2), (0, 3), (1, 4)]
+SURVIVOR [(0, 2), (1, 4), (0, 3), (1, 2), (0, 4), (1, 3)]
+SURVIVOR [(0, 3), (1, 2), (0, 4), (1, 3), (0, 2), (1, 4)]
+SURVIVOR [(1, 3), (0, 4), (1, 2), (0, 3), (1, 4), (0, 2)]
+SURVIVOR [(1, 4), (0, 2), (1, 3), (0, 4), (1, 2), (0, 3)]
+SURVIVOR [(1, 4), (0, 3), (1, 2), (0, 4), (1, 3), (0, 2)]
+SURVIVOR [(2, 4), (0, 1), (0, 3), (1, 2), (0, 4), (1, 3), (0, 2)]
+u = 5, h = 2, parity rule off: 6294 LP tests, 1808 branches closed by the LP (1808 exact certificates confirmed, 0 not), 1 closed by counting, 8 survivors, 1s
+CLAIM NOT VERIFIED
+u = 6, h = 4, parity rule off: 64374 LP tests, 20926 branches closed by the LP (20926 exact certificates confirmed, 0 not), 185 closed by counting, 0 survivors, 14s
+claim verified
+u = 7, h = 3, parity rule off: 2389629 LP tests, 786749 branches closed by the LP (786749 exact certificates confirmed, 0 not), 64 closed by counting, 0 survivors, 732s
+claim verified

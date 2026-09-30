@@ -1,0 +1,15 @@
+u = 3, h = 2: the search reaches 0 complete sets, 0 satisfy the counting inequality, none has a good interval of length 2 p_u (0.0s)
+u = 4, h = 3: the search reaches 0 complete sets, 0 satisfy the counting inequality, none has a good interval of length 3 p_u (0.0s)
+u = 5, h = 2: the search reaches 2 complete sets, 0 satisfy the counting inequality, none has a good interval of length 2 p_u (0.0s)
+u = 6, h = 4: the search reaches 1 complete sets, 0 satisfy the counting inequality, none has a good interval of length 4 p_u (0.0s)
+u = 7, h = 3: the search reaches 9 complete sets, 2 satisfy the counting inequality, none has a good interval of length 3 p_u (0.0s)
+    P = (2, 3, 5, 7, 11, 13, 17): longest good interval 18, target 51
+    P = (2, 3, 5, 7, 11, 13, 19): longest good interval 17, target 57
+u = 8, h = 4: the search reaches 21 complete sets, 6 satisfy the counting inequality, none has a good interval of length 4 p_u (0.0s)
+    P = (2, 3, 5, 7, 11, 13, 17, 19): longest good interval 27, target 76
+    P = (2, 3, 5, 7, 11, 13, 17, 23): longest good interval 24, target 92
+    P = (2, 3, 5, 7, 11, 13, 17, 29): longest good interval 24, target 116
+    P = (2, 3, 5, 7, 11, 13, 19, 23): longest good interval 23, target 92
+    P = (2, 3, 5, 7, 11, 13, 19, 29): longest good interval 23, target 116
+    P = (2, 3, 5, 7, 11, 17, 19, 23): longest good interval 23, target 92
+claim verified

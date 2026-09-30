@@ -1,0 +1,10 @@
+name = "sweepcheck"
+version = "1.0.0"
+defaultTargets = ["SweepCheck", "sweepcheck"]
+
+[[lean_lib]]
+name = "SweepCheck"
+
+[[lean_exe]]
+name = "sweepcheck"
+root = "Main"

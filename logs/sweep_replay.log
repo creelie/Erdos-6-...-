@@ -1,0 +1,19 @@
+SURVIVOR [(2, 3), (0, 1), (0, 2), (1, 3)]
+four primes 37, 41, 43, 47: u = 4, W = 110, h = 2, 4 blocks; 35 LP tests along the branch, survives
+SURVIVOR [(1, 3), (0, 2), (0, 1), (2, 3)]
+four primes 191, 193, 197, 199: u = 4, W = 572, h = 2, 4 blocks; 36 LP tests along the branch, survives
+SURVIVOR [(3, 7), (2, 6), (1, 5), (0, 4), (2, 3), (0, 1), (6, 7), (4, 5), (0, 2), (1, 3), (4, 6), (5, 7)]
+eight primes, quadruplets at 1006301 and 1006331: u = 8, W = 4025203, h = 3, 12 blocks; 192 LP tests along the branch, survives
+SURVIVOR [(3, 7), (2, 6), (1, 5), (0, 4), (2, 3), (0, 1), (6, 7), (4, 5), (0, 2), (1, 3), (4, 6), (5, 7)]
+eight primes, quadruplets at 10531061 and 10531091: u = 8, W = 42124243, h = 3, 12 blocks; 192 LP tests along the branch, survives
+SURVIVOR [(7, 15), (6, 14), (5, 13), (4, 12), (3, 11), (2, 10), (1, 9), (0, 8), (6, 7), (4, 5), (2, 3), (0, 1), (14, 15), (12, 13), (10, 11), (8, 9), (4, 6), (5, 7), (0, 2), (1, 3), (12, 14), (13, 15), (8, 10), (9, 11), (0, 4), (1, 5), (2, 6), (3, 7), (8, 12), (9, 13), (10, 14), (11, 15)]
+sixteen primes, two cubes at 128538791 and 128570171: u = 16, W = 642693954, h = 4, 32 blocks; 994 LP tests along the branch, survives
+SURVIVOR [(3, 5), (2, 4), (0, 1), (2, 3), (0, 5), (1, 4), (0, 2), (1, 3), (4, 5)]
+six primes at 29340119: u = 6, W = 117360475, h = 3, 9 blocks; 106 LP tests along the branch, survives
+SURVIVOR [(3, 5), (2, 4), (0, 1), (2, 3), (0, 5), (1, 4), (0, 2), (1, 3), (4, 5)]
+six primes at 5639: u = 6, W = 22555, h = 3, 9 blocks; 106 LP tests along the branch, survives
+SURVIVOR [(3, 5), (2, 4), (0, 1), (2, 3), (0, 5), (1, 4), (0, 2), (1, 3), (4, 5)]
+six primes at 45119: u = 6, W = 180475, h = 3, 9 blocks; 106 LP tests along the branch, survives
+SURVIVOR [(3, 5), (2, 4), (0, 1), (2, 3), (0, 5), (1, 4), (0, 2), (1, 3), (4, 5)]
+six primes at 229751: u = 6, W = 919003, h = 3, 9 blocks; 106 LP tests along the branch, survives
+all examples pass

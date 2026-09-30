@@ -1,0 +1,8 @@
+u = 2, h = 2: log of 2 bytes accepted (0.0 s)
+u = 3, h = 2: log of 160 bytes accepted (0.0 s)
+u = 4, h = 3: log of 1240 bytes accepted (0.0 s)
+u = 5, h = 2: log of 27668 bytes accepted (0.0 s)
+u = 6, h = 4: log of 409922 bytes accepted (0.1 s)
+u = 7, h = 3: log of 9653013 bytes accepted (4.6 s)
+u = 8, h = 4: log of 183620778 bytes accepted (93.3 s)
+all logs accepted: the hypothesis of SweepCheck.upper_bounds holds
