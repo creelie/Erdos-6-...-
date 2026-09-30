@@ -1,0 +1,5 @@
+u=6 m=3 designs with distinct slopes: 8, best nullspace dim 4, time 0s
+[((0, 1), (2, 3), (4, 5)), ((0, 2), (1, 4), (3, 5)), ((0, 5), (1, 3), (2, 4))]
+u=8 m=3 designs with distinct slopes: 384, best nullspace dim 5, time 0s
+[((0, 1), (2, 3), (4, 5), (6, 7)), ((0, 2), (1, 3), (4, 6), (5, 7)), ((0, 4), (1, 5), (2, 6), (3, 7))]
+u=8 m=4 designs with distinct slopes: 0, best nullspace dim None, time 3s

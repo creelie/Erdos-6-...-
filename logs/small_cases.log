@@ -1,0 +1,13 @@
+  u=3: p1=2, p2=3: W < 3p1/(1-sigma) gives W <= 12, so max(P) <= 6
+u = 3: 1 sets checked, all good intervals shorter than 2 max(P); largest ratio 0.8000 at P = (2, 3, 5) (W = 4)
+  u=4: p1=2, p2=3: W < 4p1/(1-sigma) gives W <= 24, so max(P) <= 8
+  u=4: p1=2, p2=5: W < 4p1/(1-sigma) gives W <= 14, so max(P) <= 4
+  u=4: p1=3, p2=5: W < 4p1/(1-sigma) gives W <= 21, so max(P) <= 7
+u = 4: 1 sets checked, all good intervals shorter than 3 max(P); largest ratio 0.8571 at P = (2, 3, 5, 7) (W = 6)
+  u=5: p1=2, p2=3: W < 5p1/(1-sigma) gives W <= 42, so max(P) <= 21
+  u=5: p1=2, p2=5: W < 5p1/(1-sigma) gives W <= 20, so max(P) <= 10
+  u=5: p1=3, p2=5: W < 5p1/(1-sigma) gives W <= 30, so max(P) <= 15
+  u=5: p1=2, p2=7: W < 5p1/(1-sigma) gives W <= 15, so max(P) <= 7
+  u=5: p1=3, p2=7: W < 5p1/(1-sigma) gives W <= 23, so max(P) <= 11
+  u=5: p1=5, p2=7: W < 5p1/(1-sigma) gives W <= 39, so max(P) <= 19
+u = 5: 25 sets checked, all good intervals shorter than 2 max(P); largest ratio 1.0909 at P = (2, 3, 5, 7, 11) (W = 12)
