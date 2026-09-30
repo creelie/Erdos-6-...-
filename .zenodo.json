@@ -9,5 +9,5 @@
   ],
   "license": "MIT",
   "keywords": ["Erdős problems", "covering by residue classes", "Jacobsthal function", "Hilbert cubes of primes", "Farkas certificates", "Lean"],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
