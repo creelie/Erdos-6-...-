@@ -1,0 +1,8 @@
+pairs of primes below 140: 561, exceptions to W = 2 p_1 - 1: []
+triples below 140 with product <= 4e6: 5984; top three: [('1.8850', 213, (107, 109, 113)), ('1.8807', 205, (103, 107, 109)), ('1.8785', 201, (101, 103, 107))]
+quadruples below 60 with product <= 3e7: 2380; top three: [('2.3404', 110, (37, 41, 43, 47)), ('2.0755', 110, (37, 43, 47, 53)), ('2.0678', 122, (41, 47, 53, 59))]
+SAT: P = (101, 103, 107, 109): longest good interval 302, ratio 2.7706
+SAT: P = (191, 193, 197, 199): longest good interval 572, ratio 2.8744
+SAT: P = (101, 103, 107, 109, 113): longest good interval 213, ratio 1.8850
+SAT: P = (97, 101, 103, 107, 109, 113): longest good interval 290, ratio 2.5664
+SAT: P = (101, 103, 107, 109, 113, 127, 131): longest good interval 302, ratio 2.3053
