@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+lean/.lake/
+logs/proofs/sweep_8_4.bin

@@ -1,13 +1,13 @@
 {
-  "title": "An interval problem of Erdős for four and five primes: code and data",
+  "title": "Exact values of Erdős's interval function up to eight primes: code, proof logs and Lean formalisation",
   "upload_type": "software",
-  "description": "Programs and recorded output accompanying the paper 'An interval problem of Erdős for four and five primes' by D. Bhattacharjee, P. Mandal and U. Bhattacharya. They include the certified search (exact Farkas certificates and a parity test) behind h(5) = 2, the finite checks for small primes, and the verification of the explicit good intervals quoted in the paper.",
+  "description": "Programs, proof logs and a Lean 4 formalisation accompanying the paper 'Exact values of Erdős's interval function up to eight primes' by D. Bhattacharjee, P. Mandal and U. Bhattacharya. The Lean project proves the upper bounds h(u) for u at most 8 (h(1), ..., h(8) = 1, 2, 2, 3, 2, 4, 3, 4) using only the standard axioms, with a verified checker for the proof logs of the certified search. The Python programs regenerate the proof logs, treat the sets with a small second prime, and verify the explicit good intervals behind the lower bounds.",
   "creators": [
     {"name": "Bhattacharjee, Deep", "orcid": "0000-0003-0466-750X"},
     {"name": "Mandal, Priyabrata", "orcid": "0000-0001-6472-6239", "affiliation": "Maulana Azad National Institute of Technology Bhopal"},
     {"name": "Bhattacharya, Ushashi", "orcid": "0009-0002-2254-3914"}
   ],
   "license": "MIT",
-  "keywords": ["Erdős problems", "covering by residue classes", "Jacobsthal function", "Hilbert cubes of primes", "linear programming certificates"],
+  "keywords": ["Erdős problems", "covering by residue classes", "Jacobsthal function", "Hilbert cubes of primes", "Farkas certificates", "Lean"],
   "version": "1.0.0"
 }

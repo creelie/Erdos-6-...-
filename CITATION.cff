@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "An interval problem of Erdős for four and five primes: code and data"
+title: "Exact values of Erdős's interval function up to eight primes: code, proof logs and Lean formalisation"
 version: 1.0.0
 license: MIT
 authors:
@@ -18,4 +18,5 @@ keywords:
   - covering by residue classes
   - Jacobsthal function
   - Hilbert cubes of primes
-  - linear programming certificates
+  - Farkas certificates
+  - Lean

@@ -1,0 +1,14 @@
+u = 2, h = 2: 0 LP tests, 0 branches closed by the LP (0 exact certificates confirmed, 0 not), 1 closed by counting, 0 survivors, 0s
+claim verified
+u = 3, h = 2: 34 LP tests, 8 branches closed by the LP (8 exact certificates confirmed, 0 not), 1 closed by counting, 0 survivors, 0s
+claim verified
+u = 4, h = 3: 235 LP tests, 61 branches closed by the LP (61 exact certificates confirmed, 0 not), 5 closed by counting, 0 survivors, 0s
+claim verified
+u = 5, h = 2: 4969 LP tests, 1303 branches closed by the LP (1303 exact certificates confirmed, 0 not), 1 closed by counting, 0 survivors, 1s
+claim verified
+u = 6, h = 4: 53710 LP tests, 16838 branches closed by the LP (16838 exact certificates confirmed, 0 not), 185 closed by counting, 0 survivors, 14s
+claim verified
+u = 7, h = 3: 1169912 LP tests, 355704 branches closed by the LP (355704 exact certificates confirmed, 0 not), 64 closed by counting, 0 survivors, 359s
+claim verified
+u = 8, h = 4: 17871372 LP tests, 5994816 branches closed by the LP (5994816 exact certificates confirmed, 0 not), 1302 closed by counting, 0 survivors, 6263s
+claim verified

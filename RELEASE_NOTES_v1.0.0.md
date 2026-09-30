@@ -1,30 +1,29 @@
 # v1.0.0
 
-First public release of the code and data behind the paper
-*An interval problem of Erdős for four and five primes* by Deep Bhattacharjee,
+Code, proof logs and Lean formalisation for the paper
+*Exact values of Erdős's interval function up to eight primes* by Deep Bhattacharjee,
 Priyabrata Mandal and Ushashi Bhattacharya.
 
 ## What is in it
 
-- The certified search over configurations of five primes. Every node of the search that has no
-  real solution is closed by a Farkas certificate checked in exact rational arithmetic, and the
-  eight configurations that do have real solutions are excluded by the parity condition. Together
-  with the finite check for small primes this gives h(5) = 2.
-- The same search for three and four primes, which confirms the hand proofs of h(3) = 2 and h(4) = 3.
-- An exact scan of one period for the sets whose second prime is small (u = 3, 4, 5).
-- Direct verification of every explicit good interval quoted in the paper, for four, six, eight
-  and sixteen primes, including the sixteen-prime interval of ratio 4.9987.
-- The exhaustive tables for pairs, triples and quadruples of primes and the SAT values for a few
-  larger sets.
-- The SAT searches for designs of lines that led to the constructions.
+- A Lean 4 formalisation (core library only) of the upper bounds h(u) ≤ 1, 2, 2, 3, 2, 4, 3, 4 for
+  u = 1, ..., 8. The main theorem `SweepCheck.upper_bounds` uses only the standard axioms. Its one
+  hypothesis, that the verified checker accepts the proof logs, is discharged by running the
+  compiled checker `sweepcheck` on `logs/proofs/`.
+- The certified search `sweep_search.py`, which writes the proof logs: every closed branch carries
+  a combinatorial reason or a Farkas certificate with integer multipliers.
+- The treatment of the sets with a small second prime (`small_second_prime.py`), which the Lean
+  kernel also evaluates directly.
+- Direct verification of every explicit good interval quoted in the paper (four, six, eight and
+  sixteen primes), and a replay of these intervals through the search.
+- The tables of the computational section and the searches for designs of lines.
 - Recorded output of every program in `logs/`.
 
 ## Running it
 
-    pip install -r requirements.txt
-    python3 configurations.py 5 2
+    xz -dk logs/proofs/sweep_8_4.bin.xz
+    cd lean && lake build && ./.lake/build/bin/sweepcheck ../logs/proofs
 
-The five-prime search takes about eight minutes on one core; everything else runs in seconds or
-a few minutes.
+See `README.md` for the Python programs and for regenerating the proof logs.
 
 The code was written by the authors with the assistance of Claude (Anthropic).
