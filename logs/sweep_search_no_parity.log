@@ -12,3 +12,5 @@ u = 6, h = 4, parity rule off: 64374 LP tests, 20926 branches closed by the LP (
 claim verified
 u = 7, h = 3, parity rule off: 2389629 LP tests, 786749 branches closed by the LP (786749 exact certificates confirmed, 0 not), 64 closed by counting, 0 survivors, 732s
 claim verified
+u = 8, h = 4, parity rule off: 27188733 LP tests, 9683947 branches closed by the LP (9683947 exact certificates confirmed, 0 not), 1302 closed by counting, 0 survivors, 10972s
+claim verified

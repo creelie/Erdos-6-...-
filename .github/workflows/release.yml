@@ -25,8 +25,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
-        run: >
-          gh release create "$TAG"
-          --target "$GITHUB_SHA"
-          --title "$TAG"
-          --notes-file "RELEASE_NOTES_${TAG}.md"
+        # A release made on the GitHub website pushes its tag too; leave that release as it is.
+        run: |
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            echo "Release $TAG already exists"
+          else
+            gh release create "$TAG" --target "$GITHUB_SHA" --title "$TAG" \
+              --notes-file "RELEASE_NOTES_${TAG}.md"
+          fi

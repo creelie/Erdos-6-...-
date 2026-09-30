@@ -56,9 +56,14 @@ under two minutes on one core. `#print axioms SweepCheck.upper_bounds` lists the
     python3 sweep_search.py 8 4 --emit logs/proofs/sweep_8_4.bin
 
 and likewise for `(u, h)` = `(2, 2)`, `(3, 2)`, `(4, 3)`, `(5, 2)`, `(6, 4)`, `(7, 3)`. The search is
-deterministic: with the same versions of Python and HiGHS it reproduces the logs byte for byte. The runs for u ≤ 6 take seconds, u = 7 about
-six minutes and u = 8 about an hour and three quarters on one core. `--no-parity` runs the search without the parity
-rule.
+deterministic: with the same versions of Python and HiGHS it reproduces the logs byte for byte.
+The runs for u ≤ 6 take seconds, u = 7 about six minutes and u = 8 about an hour and three
+quarters on one core.
+
+`--no-parity` runs the search without the parity rule. These runs are not part of the proof;
+`logs/sweep_search_no_parity.log` records them: five primes leave eight survivors (the two shapes
+excluded by hand in the paper), and six, seven and eight primes leave none. The eight-prime run
+takes about three hours.
 
 ## Files
 
