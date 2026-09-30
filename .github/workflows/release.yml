@@ -1,9 +1,17 @@
 name: Release
 
-# Publishing a GitHub release for a pushed version tag lets the Zenodo integration archive it.
+# Publishing a GitHub release lets the Zenodo integration archive it and mint a DOI.
+# The release is made either by pushing a version tag or by running this workflow by hand
+# (Actions > Release > Run workflow), which creates the tag at the chosen branch's head.
 on:
   push:
     tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Version tag to create and release
+        required: true
+        default: v1.0.0
 
 permissions:
   contents: write
@@ -16,7 +24,9 @@ jobs:
       - name: Create the release
         env:
           GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
         run: >
-          gh release create "$GITHUB_REF_NAME" --verify-tag
-          --title "$GITHUB_REF_NAME"
-          --notes-file "RELEASE_NOTES_${GITHUB_REF_NAME}.md"
+          gh release create "$TAG"
+          --target "$GITHUB_SHA"
+          --title "$TAG"
+          --notes-file "RELEASE_NOTES_${TAG}.md"
